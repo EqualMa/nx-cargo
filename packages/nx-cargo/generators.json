@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "name": "nx-cargo",
+  "version": "0.0.1",
+  "generators": {
+    "nx-cargo": {
+      "factory": "./src/generators/nx-cargo/generator",
+      "schema": "./src/generators/nx-cargo/schema.json",
+      "description": "nx-cargo generator"
+    }
+  }
+}
