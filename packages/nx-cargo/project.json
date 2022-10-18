@@ -4,6 +4,9 @@
   "sourceRoot": "packages/nx-cargo/src",
   "projectType": "library",
   "targets": {
+    "semantic-release": {
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release"
+    },
     "build": {
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
