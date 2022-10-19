@@ -14,6 +14,7 @@
         "outputPath": "dist/packages/nx-cargo",
         "main": "packages/nx-cargo/src/index.ts",
         "tsConfig": "packages/nx-cargo/tsconfig.lib.json",
+        "buildableProjectDepsInPackageJsonType": "dependencies",
         "assets": [
           "packages/nx-cargo/*.md",
           {
