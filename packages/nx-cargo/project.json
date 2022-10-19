@@ -5,7 +5,11 @@
   "projectType": "library",
   "targets": {
     "semantic-release": {
-      "executor": "@theunderscorer/nx-semantic-release:semantic-release"
+      "executor": "@theunderscorer/nx-semantic-release:semantic-release",
+      "options": {
+        "buildTarget": "nx-cargo:build",
+        "outputPath": "dist/packages/nx-cargo"
+      }
     },
     "build": {
       "executor": "@nrwl/js:tsc",
